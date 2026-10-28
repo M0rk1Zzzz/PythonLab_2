@@ -8,4 +8,4 @@ with open('books-en.csv', encoding='latin-1') as csvfile:
         if len(row["Book-Title"]) > 30:
             count += 1
 
-print(count, row)
+print(count)
